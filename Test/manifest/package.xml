@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>ContactTriggerHandler</members>
+		<members>ContactTriggerHandlerTest</members>
+		<members>HttpCallout</members>
+		<members>HttpCalloutTest</members>
+		<members>TestController</members>
+		<members>UpdateNumberOfContacts</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>UpdateAcc</members>
+		<name>ApexTrigger</name>
+	</types>
+	<types>
+		<members>Account.Number_of_Contacts__c</members>
+		<name>CustomField</name>
+	</types>
+	<types>
+		<members>LWC_Demo</members>
+		<name>FlexiPage</name>
+	</types>
+	<types>
+		<members>Test</members>
+		<name>LightningComponentBundle</name>
+	</types>
+	<version>55.0</version>
+</Package>

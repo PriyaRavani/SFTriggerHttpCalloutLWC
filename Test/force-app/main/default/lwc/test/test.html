@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title = "List Of Accounts">
+        <lightning-layout vertical-align="center">
+            <lightning-layout-item padding="around:small">
+                <template for:each={AccList} for:item="Acc" >
+                    <p key={Acc.Id}></p>
+                    {Acc.Name}
+                </template>
+            </lightning-layout-item>
+        </lightning-layout>    
+    </lightning-card>   
+</template>
